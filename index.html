@@ -22,18 +22,30 @@
                 <p class="bold-text">Under Construction</p>
                 <p class="simple-text">We're making lots of improvements and will be <br>back soon</p>
             </div>
-            <div class="timing">
-                <div class="time"> 92 : 11 : 41 : 48</div>
-                <div class="dhms">
+            <div class="count-time" id="countTime">
+                <div class="time"> 
+                    <p class="number" id="days"></p>
                     <span class="days"></span>
+                </div>
+                <div class="number">:</div>
+                <div class="time"> 
+                    <p class="number" id="hours"></p>
                     <span class="hours"></span>
+                </div>
+                <div class="number">:</div>
+                <div class="time"> 
+                    <p class="number" id="minutes"></p>
                     <span class="minutes"></span>
+                </div>
+                <div class="number">:</div>
+                <div class="time"> 
+                    <p class="number" id="seconds"></p>
                     <span class="seconds"></span>
                 </div>
             </div>
             <div class="group2136">
                 <p class="simple-text">Check our event page when you wait:</p>
-                <a href="https://egorovagency.by/#main" class="link">Go to the event <img src="./assets/arrow-right.png" alt="arrow" width="20px" height="20px"></a>
+                <a href="https://egorovagency.by/#main" target="_blank" class="link">Go to the event <img src="./assets/arrow-right.png" alt="arrow" width="20px" height="20px"></a>
             </div>
         </div>
         <div class="vector">
@@ -43,10 +55,10 @@
     </main>
     <footer class="wrapper footer">
         <form class="form">
-            <input type="email" placeholder="Enter your Email and get notified" class="input"
-            >
-            <button>Submit</button>
+            <input type="email" placeholder="Enter your Email and get notified" class="input" >
+            <button class="form-btn"><img class="arrow" src="./assets/arrowBtn.png" alt="arrow"></button>
         </form>
     </footer>
+    <script src="./index.js"></script>
 </body>
 </html>
