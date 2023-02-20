@@ -1,0 +1,233 @@
+@media (max-width: 768px) {
+    .logo{ 
+        margin-top: 100px;
+        margin-bottom: 166px;
+    }
+    .vector-left{
+        background-image: url(./../assets/VectorLeft768.svg);
+        background-repeat: no-repeat;
+        width: 478px;
+    }
+      
+    .vector-right{
+        background-image: url(./../assets/VectorRight768.svg);
+        background-repeat: no-repeat;
+    }
+
+    .content{
+       text-align: center; 
+    }
+
+    .bold-text{
+        font-size: 36px;
+        line-height: 37px;
+        margin-bottom: 20px;
+    }
+
+    .simple-text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .text-content .simple-text {
+        width: 286px;
+    }
+
+    .count-time{
+        margin-top: 40px;
+    }
+
+    .number{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .days{
+        display: inline-block;
+        width: 64px;
+        height: 40px;
+        background-image: url(./../assets/DD.png);
+    }
+
+    .hours{
+        display: inline-block;
+        width: 64px;
+        height: 40px;
+        background-image: url(./../assets/HH.png);
+    }
+
+    .minutes{
+        display: inline-block;
+        width: 64px;
+        height: 40px;
+        background-image: url(./../assets/MM.png);
+    }
+    
+    .seconds{
+        display: inline-block;
+        width: 64px;
+        height: 40px;
+        background-image: url(./../assets/SS.png);
+    }
+
+    .group2136{
+        margin-top: 40px;
+        margin-bottom: 169px;
+    }
+    
+    .footer{
+        position: static;
+        height: 160px;
+    }
+
+    .form{
+        width: 360px;
+        height: 41px;
+    }
+
+    .input{
+        width: 202px;
+        height: 21px;
+        border: none;
+        font-size: 14px;
+        line-height: 21px;
+        margin-left: 20px;
+    }
+
+    .form-btn{
+        width: 33px;
+        height: 33px;
+        margin: 4px;
+    }
+    
+    .arrow{
+        width: 15px;
+        height: 15px;
+    }
+    .popup-body{
+        margin-top: 10px;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .vector-left{
+        background-image: url("./../assets/VectorLeft380.svg");
+        background-repeat: no-repeat;
+        width: 182px;
+        height: 146px;
+    }
+
+    .vector-right{
+        background-image: url(./../assets/VectorRight380.svg);
+        background-repeat: no-repeat;  
+        width: 183px;
+        height: 215px;
+    }
+
+    .logo{ 
+        margin-top: 80px;
+        margin-bottom: 66px;
+    }
+    
+    .logo-img{
+        width: 128px;
+        height: 40px;
+    }
+
+    .content{
+        text-align: center;
+    }
+
+    .bold-text{
+        font-size: 36px;
+        line-height: 37px;
+        margin-bottom: 20px;
+        width: 320px;
+    }
+
+    .simple-text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .text-content .simple-text {
+        width: 286px;
+    }
+
+    .count-time{
+        margin-top: 40px;
+    }
+
+    .number{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .days{
+        display: inline-block;
+        width: 64px;
+        height: 40px;
+        background-image: url(./../assets/DD.png);
+    }
+
+    .hours{
+        display: inline-block;
+        width: 64px;
+        height: 40px;
+        background-image: url(./../assets/HH.png);
+    }
+
+    .minutes{
+        display: inline-block;
+        width: 64px;
+        height: 40px;
+        background-image: url(./../assets/MM.png);
+    }
+    
+    .seconds{
+        display: inline-block;
+        width: 64px;
+        height: 40px;
+        background-image: url(./../assets/SS.png);
+    }
+
+    .group2136{
+        margin-top: 40px;
+        margin-bottom: 86px;
+    }
+    
+    .footer{
+        position: static;
+        height: 141px;
+        width: 100%;
+    }
+
+    .form{
+        width: 280px;
+        height: 41px;
+    }
+
+    .input{
+        width: 202px;
+        height: 21px;
+        border: none;
+        font-size: 14px;
+        line-height: 21px;
+        margin-left: 20px;
+    }
+
+    .form-btn{
+        width: 33px;
+        height: 33px;
+        margin: 4px;
+    }
+    
+    .arrow{
+        width: 15px;
+        height: 15px;
+    }
+
+    .popup-body{
+        margin-top: 10px;
+    }
+  }

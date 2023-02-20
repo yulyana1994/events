@@ -7,20 +7,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/styleMedia.css">
     <title>Events</title>
 </head>
-<body>
+<body class="loading">
+    <div class="popup">
+        <div class="popup-body">
+            <div class="popup-content">
+                <div class="popup-close"></div>
+                <div class="popup-title"></div>
+                <div class="popup-text"></div>
+                <button class="popup-btn">Close</button>
+            </div>
+        </div>
+    </div>
     <header class="wrapper header">
         <div class="logo">
-            <a href="https://yulyana1994.github.io/events/" target="_blank"><img src="./assets/Group.png" alt="logo" class="logo-img"></a>
+            <a href="https://yulyana1994.github.io/events/" target="_blank"><img src="./assets/Group.svg" alt="logo" class="logo-img"></a>
         </div>
     </header>
     <main class="wrapper main">
         <div class="content">
             <div class="text-content">
-                <p class="bold-text">Under Construction</p>
-                <p class="simple-text">We're making lots of improvements and will be <br>back soon</p>
+                <p class="bold-text">UNDER CONSTRUCTION</p>
+                <p class="simple-text ">We're making lots of improvements and will be back soon</p>
             </div>
             <div class="count-time" id="countTime">
                 <div class="time"> 
@@ -49,16 +60,18 @@
             </div>
         </div>
         <div class="vector">
-            <img src="./assets/VectorLeft.png" alt="vector-left" class="vector-left">
-            <img src="./assets/VectorRight.png" alt="vector-right" class="vector-right">
+            <div class="vector-left"></div>
+            <div class="vector-right"></div>
         </div>
     </main>
     <footer class="wrapper footer">
-        <form class="form">
-            <input type="email" placeholder="Enter your Email and get notified" class="input" >
-            <button class="form-btn"><img class="arrow" src="./assets/arrowBtn.png" alt="arrow"></button>
+        <form class="form" id="form">
+            <input type="email" name="email" placeholder="Enter your Email and get notified" class="input _req _email" >
+            <button class="form-btn" type="submit"><img class="arrow" src="./assets/arrowBtn.png" alt="arrow"></button>
         </form>
     </footer>
-    <script src="./index.js"></script>
+    <script src="./scripts/time.js"></script>
+    <script src="./scripts/form.js"></script>
+    <script src="./scripts/popupClose.js"></script>
 </body>
 </html>
