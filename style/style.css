@@ -244,6 +244,30 @@ html, body{
     height: 20px;
 }
 
+.link-pos{
+   position: relative;
+   left: 30%;
+}
+
+.link-footer{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link-footer:hover{
+    text-decoration: underline;
+}
+
+.arrow-footer{
+    width: 24px;
+    height: 24px;
+}
+
 .loading::after{
     content: "";
     position: absolute;
@@ -345,6 +369,7 @@ html, body{
     cursor: pointer;
 }
 
+
 @keyframes animation{
     0%{
         top: -100px;
@@ -355,3 +380,5 @@ html, body{
         opacity: 1;
     }
 }
+
+

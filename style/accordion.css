@@ -1,3 +1,19 @@
+.all-events{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-events-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    line-height: 75px;
+    font-weight: 700;
+    color: rgba(22, 44, 78, 1);
+    opacity: 39%;
+}
+
 .dws-wrapper{
     display: flex;
     justify-content: center;
@@ -189,4 +205,24 @@ ul.accordion li:nth-child(1):hover{
     font-size: 40px;
     line-height: 40px;
     font-weight: 600; 
+}
+
+@media (max-width: 768px) {
+    .all-events{
+        display: none;
+    }
+
+    .link-pos{
+        display: none;
+    }
+  }
+
+@media (max-width: 360px) {
+    .all-events{
+        display: none;
+    }
+
+    .link-pos{
+        display: none;
+    }
 }
