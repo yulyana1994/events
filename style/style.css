@@ -277,6 +277,7 @@ html, body{
 .popup.open{
     opacity: 1;
     visibility: visible;
+    z-index: 1;
 }
 
 .popup-body{
@@ -284,15 +285,17 @@ html, body{
     align-items: center;
     justify-content: center;
     margin-top: 290px;
+    opacity: 1;
 }
 
 .popup-content{
+    background-color: #FFFFFF;
     display: flex;
+    opacity: 1;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    background-color: #FFFFFF;
     width: 320px;
     height: 370px;
     border-radius: 2px;
