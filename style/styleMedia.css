@@ -1,4 +1,5 @@
 @media (max-width: 768px) {
+
     .logo{ 
         margin-top: 100px;
         margin-bottom: 166px;
@@ -46,28 +47,28 @@
         display: inline-block;
         width: 64px;
         height: 40px;
-        background-image: url(./../assets/DD.png);
+        background-image: url(./../assets/DD.svg);
     }
 
     .hours{
         display: inline-block;
         width: 64px;
         height: 40px;
-        background-image: url(./../assets/HH.png);
+        background-image: url(./../assets/HH.svg);
     }
 
     .minutes{
         display: inline-block;
         width: 64px;
         height: 40px;
-        background-image: url(./../assets/MM.png);
+        background-image: url(./../assets/MM.svg);
     }
     
     .seconds{
         display: inline-block;
         width: 64px;
         height: 40px;
-        background-image: url(./../assets/SS.png);
+        background-image: url(./../assets/SS.svg);
     }
 
     .group2136{
@@ -94,6 +95,13 @@
         margin-left: 20px;
     }
 
+    .input::placeholder{
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
     .form-btn{
         width: 33px;
         height: 33px;
@@ -111,7 +119,7 @@
 
   @media (max-width: 360px) {
     .vector-left{
-        background-image: url("./../assets/VectorLeft380.svg");
+        background-image: url(./../assets/VectorLeft380.svg);
         background-repeat: no-repeat;
         width: 182px;
         height: 146px;
@@ -167,28 +175,28 @@
         display: inline-block;
         width: 64px;
         height: 40px;
-        background-image: url(./../assets/DD.png);
+        background-image: url(./../assets/DD.svg);
     }
 
     .hours{
         display: inline-block;
         width: 64px;
         height: 40px;
-        background-image: url(./../assets/HH.png);
+        background-image: url(./../assets/HH.svg);
     }
 
     .minutes{
         display: inline-block;
         width: 64px;
         height: 40px;
-        background-image: url(./../assets/MM.png);
+        background-image: url(./../assets/MM.svg);
     }
     
     .seconds{
         display: inline-block;
         width: 64px;
         height: 40px;
-        background-image: url(./../assets/SS.png);
+        background-image: url(./../assets/SS.svg);
     }
 
     .group2136{
@@ -214,6 +222,13 @@
         font-size: 14px;
         line-height: 21px;
         margin-left: 20px;
+    }
+
+    .input::placeholder{
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
     }
 
     .form-btn{

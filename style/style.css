@@ -4,8 +4,16 @@
     box-sizing: border-box;
 }
 
+html, body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .wrapper{
     margin: 0 auto;
+    min-height: 100%;
+    width: 100%;
 }
 
 .header{
@@ -15,8 +23,10 @@
 }
 
 .logo{ 
+    position: relative;
     margin-top: 60px;
     margin-bottom: 93px;
+    animation: animation 1s;
 }
 
 .logo-img{
@@ -24,9 +34,13 @@
     height: 60px;
 }
 
+.main{
+    flex: 1 1 auto;
+}
+
 .vector{
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;  
 }
 
 .vector-left{
@@ -37,6 +51,7 @@
   width: 471px;
   height: 417px;
   background-repeat: no-repeat;
+  animation: animation 2s;
 }
 
 .vector-right{
@@ -48,6 +63,7 @@
     width: 271px;
     height: 419px;
     background-repeat: no-repeat;
+    animation: animation 2s;
 }
 
 .content{
@@ -62,6 +78,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    animation: animation 1.3s;
 }
 
 .bold-text{
@@ -89,6 +107,8 @@
 .count-time{
    display: flex;
    margin-top: 32px;
+   position: relative;
+   animation: animation 1.6s;
 }
 
 .time{
@@ -110,28 +130,28 @@
     display: inline-block;
     width: 132px;
     height: 54px;
-    background-image: url(./../assets/Group\ 2096.png);
+    background-image: url(./../assets/Group\ 2096.svg);
 }
 
 .hours{
     display: inline-block;
     width: 132px;
     height: 54px;
-    background-image: url(./../assets/Group\ 2094.png);
+    background-image: url(./../assets/Group\ 2094.svg);
 }
 
 .minutes{
     display: inline-block;
     width: 132px;
     height: 54px;
-    background-image: url(./../assets/Group\ 2092.png);
+    background-image: url(./../assets/Group\ 2092.svg);
 }
 
 .seconds{
     display: inline-block;
     width: 132px;
     height: 54px;
-    background-image: url(./../assets/Group\ 2090.png);
+    background-image: url(./../assets/Group\ 2090.svg);
 }
 
 .group2136{
@@ -140,6 +160,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 72px;
+    position: relative;
+    animation: animation 2s;
 }
 
 .link{
@@ -281,7 +303,7 @@
     position: relative;
     left: 40%;
     top: -10%;
-    background-image: url(./../assets/x.png);
+    background-image: url(./../assets/x.svg);
     width: 24px;
     height: 24px;
     cursor: pointer;
@@ -318,4 +340,15 @@
     color: rgba(255, 255, 255, 1);
     text-align: center;
     cursor: pointer;
+}
+
+@keyframes animation{
+    0%{
+        top: -100px;
+        opacity: 0;
+    }
+    100%{
+        top: 0;
+        opacity: 1;
+    }
 }
