@@ -11,19 +11,19 @@
     line-height: 75px;
     font-weight: 700;
     color: rgba(22, 44, 78, 1);
-    opacity: 39%;
+    opacity: 39%
 }
 
 .dws-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
 }
 
 .accordion{
     display: flex;
-    margin-top: 40px;
-    margin-bottom: 100px;
 }
 
 .items{
